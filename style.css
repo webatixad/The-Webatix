@@ -1,0 +1,144 @@
+#skibidisigma {
+    position: absolute;
+    top:9%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Adjust this value to control the image size */
+    height: 150px;
+    border-radius: 50%; /* Creates a circular shape */
+    opacity: 0.99;
+    
+}
+  
+
+
+  
+
+
+
+
+
+
+  
+  .circular-frame {
+    
+    width: 320px; /* Adjust this value to control the frame size */
+    height: 180px;
+    border-radius: 699%;
+    border: 10px solid #4576ff; /* Optional: Add a border to the frame */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    
+  }
+
+ 
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Sets the body height to 100% of the viewport */
+    background-image: linear-gradient(rgb(54, 54, 255), lightgreen);
+    background-size: cover;
+    background-position: center top;
+  }
+  
+.text1 {
+    text-decoration: dotted;
+}
+
+#orderportal {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Adjust width as needed */
+    height: 150px;
+    border-width: 15px;
+    border-radius: 5px;
+    cursor: point;
+    background-image: linear-gradient(aqua,blue);
+}
+
+#FrontNuts {
+  font-size: 1000%;
+  white-space:nowrap;
+  position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  border-style: groove;
+  border-radius: 50px;
+  border-width: 20px;
+  border-color: navy;
+  
+  
+}
+
+#frontballs {
+  border-style: groove;
+  border-radius: 50px;
+  border-width: 15px;
+  border-color: cyan;
+  font-size:300%;
+  white-space:nowrap;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#frontnutlogo {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 220px;
+
+  /* Make the image circular */
+  border-radius: 50%;
+
+  /* Add a border */
+  border: 5px solid black;  /* Replace #yourColor with your desired border color */
+
+  /* Create the "window" effect */
+  overflow: hidden;
+  background: linear-gradient(to bottom, Green 25%, red 50px, transparent 50px, transparent 100%);
+}
+
+#bannernutter {
+  width: 1000px;
+  height: 350px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20%;
+  border: 13px solid firebrick;  /* Replace #yourColor with your desired border color */
+
+  /* Create the "window" effect */
+  overflow: hidden;
+  background: linear-gradient(to bottom, Green 0%, red 50px, transparent 50px, transparent 100%);
+}
+  
+#ultisigma {
+  width: 150px; /* Adjust width as needed */
+    height: 150px;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  border-style: groove;
+  border-radius: 50px;
+  border-width: 15px;
+  border-color: cyan;
+  font-size:300%;
+  background-image: linear-gradient(violet, blue);
+  
+}
+ 
